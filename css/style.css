@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .clearfix::after{
@@ -9,290 +10,465 @@ body{
     clear: both;
 }
 
-.wrapper{
+/* -------------------------------------------header start------------------------------- */
+
+.full-wrapper{
     width: 100%;
-    height: 100%;
-    background-image: url(../img/banner.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #000;
 }
 
-.wrapper h3{
+.nav{
+   max-width: 1000px;
+   margin: 0 auto;
+   color: #fff;
+}
+
+.nav .left{
     float: left;
-    color: #fff;
-    margin: 30px 0px 0px 20px;
-    font-size: 20px;
 }
 
-.wrapper h3 span{
-    color: #25a2c3;
-}
-
-.wrapper a{
+.nav .right{
     float: right;
-    color: #fff;
-    margin: 30px 40px 0px 0px;
-    font-size: 20px;
-    text-decoration: none;
 }
 
-/* ------------------------------------------banner start-------------------- */
+.nav ul li{
+    float: left;
+    list-style-type: none;
+    padding-right: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+
+.nav ul li span{
+    background-color: black;
+    color: #ca985d;
+}
+
+.nav img{
+    float: left;
+    clear: both;
+}
+
+.nav .size{
+    width: 20px;
+    float: left;
+    clear: both;
+}
+
+.nav h5{
+    float: left;
+    margin-left: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.nav-icon{
+    position: relative;
+    left: 10px;
+    top: 45px;
+}
+
+/* -----------------------------------------------------header over--------------------------- */
+
+/* -------------------------------------------------------banner start--------------------------- */
 
 .banner{
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    clear: both;
-    color: #fff;
-    position: relative;
-    top: 220px;
+    width: 100%;
+    height: 100%;
+    background-color: #282725;  
 }
 
-.banner h1{
-    font-size: 48px;
-    font-weight: 300;
-}
-
-.banner p{
-    font-size: 18px;
-}
-
-.banner button{
-    width: 120px;
-    padding: 15px;
-    color: #fff;
-    background-color: #25a2c3;
-    border: none;
-    margin-top: 15px;
-}
-
-/* ----------------------------------------two box start-------------------------- */
-
-.two-box{
+#size{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px 0;
 }
 
-.two-box .left{
+.banner-text .top img{
     width: 30%;
-    float: left;
 }
 
-.two-box .right{
-    width: 65%;
-    float: right;
+.comman{
+   padding: 0px 4%;
 }
 
-.two-box  .left img{
-    width: 100%;
-   border-radius: 100%;
-   border: 3px solid #dbdbdb;
+.banner-text .center{
+    text-align: center;
+    position: relative;
+    top: -80px;
+    
 }
 
-.two-box h3{
-    font-size: 25px;
-}
+.banner-text .center h1{
+    color: #ca985d;
+    font-size: 40px;
+    margin: 0px;
+} 
 
-.blue-button { 
-    width: 100px;
-    padding: 10px;
-    color: #fff;
-    background-color: #25a2c3;
-    border: none;
-    margin-top: 7px;
-}
-
-.two-box p{
+.banner-text .center p{
     color: grey;
-    font-size: 17px;
-    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+} 
+
+.banner-text .center p span{
+   color: #ca985d;
+} 
+
+button{
+    width: 140px;
+    background-image: url(../img/tm-brown-button.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 7px 12px;
+    border-radius: 15px;
+    margin-top: 1%; 
+    color: #ca985d; 
 }
 
-/* -------------------------------------------center-box start-------------------------- */
-
-.center{
+.banner-text .down img{
     width: 100%;
-    background-color: #25a2c3;
-    color: #fff;
+    height: 60%;
+    position: relative;
+    top: -120px;
 }
 
-.center .two-box .left{
-    width: 65%;
-}
+/* -------------------------------------------------------banner over---------------------------------------- */
 
-.center .two-box .right{
-    width: 30%;
-}
-
-.center .two-box img{
-    width: 100%;
-    border-radius: 100%;
-    border: 3px solid #dbdbdb;
-}
-
-.center .two-box p{
-    width: 100%;
-    border-radius: 100%;
-    color: #fff;
-}
-
-.center .two-box button{
-    color: #25a2c3;
-    background-color: #fff;
-}
-
-/* ----------------------------------------bottom start----------------------------- */
+/* -----------------------------------------------------banner bottom start------------------------------------- */
 
 .bottom{
     width: 100%;
-    padding: 50px 0px;
-    background-color: #fcf9f9;
+    background-color: #dbdbdb;
+    overflow: hidden;
 }
 
 .bottom-box{
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+    padding: 150px 0 80px;
 }
 
-.bottom-box h2{
-    font-size: 30px;
-    line-height: 10px;
-}
-
-.bottom-box p{
-    color: gray;
-}
-
-.downbox-1{
-    width: 30%;
+.bottom-box .left{
+    width: 75%;
     float: left;
-    padding-right: 3.33%;
-    margin-top: 40px;
 }
 
-.downbox-1 img{
-    width: 80%;
+.bottom-box .left h3{
+   color: #ca985d;
+   font-family: 'Lobster', cursive;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+}
+
+.bottom-box .left h2{
+   color: #393333;
+    font-weight: 300;
+    margin: 0;
+}
+
+.bottom-box .left span{
+    color: #1177bf;
+}
+
+.bottom-box .left p{
+   font-size: 12px;
+}
+
+.bottom-box .right{
+    width: 20%;
+    float: right;
+}
+
+.bottom-box .right img{
+    width: 90%;
     border-radius: 100%;
-    border: 3px solid #dbdbdb;
+    border: 10px solid #fff;
 }
 
-/* -------------------------------------------footer start----------------------------- */
+.bottom .line{
+    margin: 20px 0;
+}
+
+
+.bottom .line img{
+    float: left;
+}
+
+.bottom .line h3{
+    float: left;
+    color: #ca985d;
+    margin: 0 10px;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+
+/* ---------------------------------------------------------------banner bottom over------------------------------------ */
+
+/* ------------------------------------------------------------three box start---------------------------------------------- */
+
+.three-section .left{
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    float: left;
+    margin-right: 3.33%;
+}
+
+.three-section .left img{
+    width: 100%;
+}
+
+.three-section .left h3{
+  color: #afb0b2;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.three-section .left hr{
+    width: 85%;
+}
+
+.three-section .left p{
+    font-size: 12px;
+}
+
+.three-section .left button{
+   width: 18%;
+   border-radius: 100%;
+   color:  #afb0b2;
+   border: 2px solid #afb0b2;
+   font-family: 'Lobster', cursive;
+   position: relative;
+   bottom: -28px;
+}
+
+/* --------------------------------------------------------three box over--------------------------------------------------- */
+
+/* -----------------------------------------------------four box satrt--------------------------------------------------------- */
+
+.four-section{
+    padding: 50px 0;
+}
+
+.four-section .left{
+    width: 48%;
+    float: left;
+}
+
+.four-section .left img{
+    width: 100%;
+    border: 7px solid #fff;
+}
+
+.four-section .right{
+    width: 48%;
+    float: right;
+}
+
+.four-section .right img{ 
+    border: 7px solid #fff;
+    width: 100%;
+    height: 25%;
+}
+
+.right .comman{
+    width: 100%;
+    padding-left: 0;
+}
+
+.right .comman img{
+    margin-top: 5%;
+    width: 46%;
+    height: 20%;
+}
+
+/* ----------------------------------------------------four box over--------------------------------------------------------- */
+
+/* ----------------------------------------------------daily box start---------------------------------------------------------- */
+
+.daily-manu .left{
+    width: 40%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.daily-manu .left img{
+    width: 60%;
+}
+
+.daily-manu .right{
+    width: 60%;
+    float: right;
+}
+
+.daily-manu .right{
+   font-size: 14px;
+}
+
+/* --------------------------------------------------daily box over-------------------------------------------------------------- */
+
+/* --------------------------------------------------footer start----------------------------------------------------------------- */
 
 .footer{
-    width: 100%;
+    color: #fff;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+.footer #left{
+    padding: 50px 0;
+    float: left;
+}
+
+.footer .left{
+    width: 30%;
+    float: left;
+}
+
+.footer .left ul{
+    padding-left: 0;
+}
+
+.footer .left ul li{
+    list-style-type: none;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.footer .center{
+    width: 40%;
+    float: left;
+}
+
+.footer .right{
+    width: 30%;
+    float: left;
+}
+
+.right span {
+    margin: 10px 0 0 15px;
+    background-color: #afb0b2;
     text-align: center;
-    margin: 50 auto;
+    padding: 5px 5px;
 }
 
-.icon .fa{
-    font-size: 25px;
-    color: grey;
-    margin: 10px;
-    padding: 5px;
-    border: 2px double grey;
-    border-radius: 50px;
+.my{
+    padding: 20px 0 20px;
+    color: #000;
+    background-color: #dbdbdb;
+    font-size: 20px;
+    text-align: center;
 }
 
-.footer i{
-   font-size: 15px;
-   color: grey;
-   padding-top: 15px;
-}
+/* ---------------------------------------------------------footer over------------------------------------------------------------------ */
 
 
-/* ----------------------------------Media Query Start--------------------------------- */
+
+/* ---------------------------------------------------------Media Query Start---------------------------------------------------------------- */
 
 @media only screen and (max-width:800px){
 
-    .wrapper h3{
-        margin: 30px 0px 0px 10px;
-        font-size: 15px;
-    }
-    
-    .wrapper h3 span{
-        color: #25a2c3;
-    }
-    
-    .wrapper a{
-        color: #fff;
-        margin: 30px 20px 0px 0px;
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    .banner{
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
-        clear: both;
-        color: #fff;
-        position: relative;
-        top: 100px;
-    }
-
-    .banner h1{
-        font-size: 48px;
-    }
-    
-    .banner p{
-        font-size: 15px;
-    }
-    
-    .banner button{
-        width: 100px;
-        padding: 10px;
-        margin-top: 5px;
-    }
-
-    .two-box .left{
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
-
-    .two-box .right{
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
-
-    .two-box .left img{
-        width: 50%;
-        clear: both;
-    }
-
-    .center .two-box .right{
-        padding-top: 20px;
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
-
-    .center .two-box .left{
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
-
-    .center .two-box img{
-        width: 50%;
-    }
-
-    .bottom-box h2{
+    .banner-text .center h1{
         font-size: 30px;
-        line-height: 40px;
+    } 
+
+    .footer #left{
+       width: 100%;
+       text-align: center;
+       padding-bottom: 0px;
     }
 
-    .downbox-1{
+    .daily-manu .left{
+        width: 80%;
+        text-align: center;
+    }
+
+    .daily-manu .right{
         width: 100%;
+        padding: 10%;
+        text-align: center;
     }
 
-    .downbox-1 img{
+    .bottom .line{
+        text-align: center;
+    }
+
+    .four-section .left{
+        margin: 10px;
+        width: 90%;
+        clear: both;  
+    }
+
+    .four-section .right{
+        margin: 10px;
+        width: 90%;
+        float: none;
+        clear: both;
+        padding-top: 20px; 
+    }
+
+    .right .comman img{
+        width: 100%;
+        height: 20%;
+    }
+
+    .three-section .left{
+        margin: 20px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .bottom-box .left {
+        width: 90%;
+        margin-bottom: 50px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .bottom-box .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-box .right img{
         width: 50%;
     }
+
+    .nav .right{
+        display: none;
+    }
+
+    .banner-text .top img{
+        visibility: hidden;    }
+
+
+    .banner-text .center{
+        text-align: center;
+        position: relative;
+        top: -120px;    
+    }
+
+    .banner-text .down img{
+        width: 100%;
+        height: 60%;
+        position: relative;
+        top: -170px;
+    }
+
+    .footer .right{
+       margin-bottom: 40px;
+    }
+
 
 }
+
+
+/* -------------------------------------------------------------------------------Media Query Over---------------------------------------------------- */
+
 
